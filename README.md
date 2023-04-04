@@ -5,4 +5,9 @@ using SOLID to implement the same function even they have different usage but th
 
 
 Oberver Pattern
-ex: Notification and Email Subscribe
+-an Publisher as an Interface to notify the update, 
+-an Oberserver to observe the message changes,
+-an MessagePublisher uses the Publisher override the function thus the observer will change at the point
+
+
+ex: Notification, Music in iOS 
